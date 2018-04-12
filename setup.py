@@ -7,7 +7,7 @@ from setuptools import setup
 
 
 def read_md(f):
-    return open(f, 'r', encoding='utf-8').read()
+    return open(f, 'r').read()
 
 
 def get_version(package):
